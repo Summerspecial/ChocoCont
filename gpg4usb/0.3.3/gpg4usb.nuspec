@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>gpg4usb</id>
+    <title>gpg4usb</title>
+    <version>0.3.3</version>
+    <authors>gpg4usb developer team</authors>
+    <owners>Waterdrop</owners>
+    <summary>gpg4usb is a very easy to use portable-application, which combines a simple text-editor with a GnuPG-frontend to write, encrypt and decrypt your text-messages and files.</summary>
+    <description>To say it straight in only one sentence: gpg4usb is a very easy to use portable-application, which combines a simple text-editor with a GnuPG-frontend to write, encrypt and decrypt your text-messages and files. gpg4usb should work on almost any computer you're working on, should it be a Linux-machine or even one with a Microsoft-OS running.
+
+Almost the only thing required is an available usb-port you are allowed to access. With this application you can write safe and encrypted messages anywhere you are: should it be an internet-cafe, at work or somewhere else on holiday... and you always have the encryption-keys available for usage!
+
+The usage of gpg4usb should be highly self-describing, since the user-interface and all the options it offers are clear cut: Simply execute the binary on your usb-pendrive and start typing e.g. the Mailtext you want to be encrypted. If you're done, choose the right gpg/pgp-key for the person you are writing to and hit the encrypt-icon at the top of the application-window. The resulting encrypted text you can save as a text-file to send it as mail-attachment, or copy it directly into your mail-user-agent or webmail-website. To make sure, you can read this message by yourself afterwards, encrypt it for the recipient and to yourself at the same time - if you want, you can mark as much keys as you want to encrypt for.</description>
+    <projectUrl>http://www.gpg4usb.org</projectUrl>
+    <tags>gpg4usb admin pgp gpg usb portable secure security encryption keys GnuPG encrypt decrypt write safe email text</tags>
+    <copyright>GNU General Public License (GPL)</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>https://raw.github.com/__CHOCO_PKG_OWNER_REPO__/master/gpg4usb/gpg4usb.png</iconUrl>-->
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
