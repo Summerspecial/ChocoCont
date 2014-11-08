@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>subtitleedit</id>
+    <version>3.4.0</version>
+    <title>Subtitle Edit</title>
+    <authors>Nikolaj Lynge Olsson</authors>
+    <owners>Thilas Waterdrop</owners>
+    <licenseUrl>http://www.gnu.org/licenses/gpl.txt</licenseUrl>
+    <projectUrl>http://www.nikse.dk/SubtitleEdit/</projectUrl>
+    <iconUrl>https://code.google.com/p/subtitleedit/logo?cct=1367594185</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Subtitle Edit is a free (open source) editor for video subtitles - a subtitle editor :)</description>
+    <summary>With SE you can easily adjust a subtitle if it is out of sync with the video in several different ways.
+You can also use SE for making new subtitles from scratch (do use the time-line/waveform/spectrogram) or translating subtitles.
+For a list of features see below or check out the Subtitle Edit Help page.</summary>
+    <releaseNotes>Current Version of Subtitle Edit is 3.4.0 
+	See all - http://www.nikse.dk/subtitleedit
+
+	Features
+    - Create/adjust/sync/translate subtitle lines
+    - Convert between SubRib, MicroDVD, Advanced Sub Station Alpha, Sub Station Alpha, D-Cinema, SAMI, youtube sbv, and many more (170+ different formats!)
+    - Cool audio visualizer control - can display wave form and/or spectrogram
+    - Video player uses DirectShow, VLC media player, or MPlayer
+    - Visually sync/adjust a subtitle (start/end position and speed)
+    - Auto Translation via Google translate
+    - Rip subtitles from a (decrypted) dvd
+    - Import and OCR VobSub sub/idx binary subtitles (can use Tesseract)
+    - Import and OCR Blu-ray .sup files (can use Tesseract - bd sup reading is based on Java code from BDSup2Sub by 0xdeadbeef)
+    - Can open subtitles embedded inside matroska files
+    - Can open subtitles (text, closed captions, vobsub) embedded inside mp4/mv4 files
+    - Can open/OCR XSub subtitles embedded inside divx/avi files
+    - Can read and write both UTF-8 and other unicode files and ANSI (support for all languages/encodings on the pc!)
+    - Sync: Show texts earlier/later + point synchronization + synchronization via other subtitle
+    - Merge/split subtitles
+    - Adjust display time
+    - Fix common errors wizard
+    - Spell checking via Open Office dictionaries/NHunspell (many dictionaries available)
+    - Remove text for hear impaired (HI)
+    - Renumbering
+    - Swedish to Danish translation built-in (via Multi Translator Online)
+    - Effects: Typewriter and karaoke
+    - History/undo manager (Undo=Ctrl+z, Redo=Ctrl+y)
+    - Compare subtitles
+    - Multiple search and replace
+    - Change casing using names dictionary
+    - Merge short lines/split long lines
+    - Export to PNG images (+bdn xml), Adobe Encore FAB image script, VobSub, Blu-ray sup, EBU stl, PAC, and plain text
+</releaseNotes>
+    <copyright>Copyright © 2001-2013, Nikse</copyright>
+    <tags>subtitleedit subtitle editor video OCR sync merge split convert</tags>
+  </metadata>
+</package>

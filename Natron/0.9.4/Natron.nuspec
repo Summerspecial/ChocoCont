@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Natron</id>
+    <title>Natron OPEN-SOURCE COMPOSITING SOFTWARE</title>
+    <version>0.9.4</version>
+    <authors>Alexandre Gauthier</authors>
+    <owners>Waterdrop</owners>
+    <summary>Natron OPEN-SOURCE – CROSSPLATFORM (OSX/LINUX/WINDOWS) – NODAL – COMPOSITING SOFTWARE</summary>
+    <description>32 bits floating point linear colour processing pipeline.
+    Colorspace management handled by the famous open-source OpenColorIO library.
+    Dozens of file formats supported: EXR, DPX, TIFF, JPG, PNG…thanks to OpenImageIO.
+    Support for many free and open-source OpenFX plugins:
+
+            TuttleOFX : A suite of about 80 plug-ins made by a french studio named Mikros image.
+            OpenFX-IO to read anything else than standard 8-bits images (bundled with pre-compiled versions of Natron.
+            OpenFX-Misc : A set of basic nodes, such as Transform, chroma keyer, etc… (bundled withthe pre-compiled versions of Natron.
+            OpenFX-Yadif deinterlacer : An open-source efficient de-interlacer.
+            OpenFX-Vegas SDK samples 
+            OpenFX samples (in the Support and Examples directories)openeffects
+
+    Support for commercial OpenFX plugins: (these are proprietary software and not free)
+
+            Furnace by The Foundry
+            KeyLight by The Foundry
+            GenArts Sapphire
+            Other GenArts products
+            And probably many more.
+            Please tell us if you successfully tested other commercial plugins.
+
+    OpenFX v1.3 supported : almost all features of v1.3 are supported (see Documentation/ofxActionsSupported.rtf and Documentation/ofxPropSupported.rtf in the source distribution)
+
+    Intuitive user interface: Natron aims not to break habits by providing an intuitive and familiar user interface.  It is possible to separate on any number of screens the graphical user interface.
+	
+	Performances:  Never wait for anything to be rendered, in Natron anything you do produces real-time feedback thanks to its optimised multi-threaded rendering pipeline and its support for proxy rendering (i.e: the render pipeline can be computed at lower res to speed-up rendering).
+
+    Multi-task: Natron can render multiple graphs at the same time, it can also be used as a background process in command-line mode without any display support (e.g: for render farm purpose).
+
+    Recover easily from bugs: Natron sometimes crashes. Fear not, an  auto-save system detects inactivity and saves your work for yourself. Also Natron provides the option to render a graph in a separate process, meaning that any crash in the main application would not crash the ongoing render (and the other way around).
+
+    Project format written in XML and easily editable by human.
+
+	 Fast and interactive Viewer – Smooth and accurate  zooming/panning even for very large image sizes (tested on 27k x 30k images).
+
+    Real-time playback: Natron offers  a real-time playback with best performances thanks to its RAM/Disk cache technology. Once a frame is rendered, it can be reproduced instantly afterwards, even for large image sizes.
+
+    Low hardware requirements: All you need is an x86 64 bits or 32 bits processor, at least 3 GB of RAM and a graphic card that supports OpenGL 2.0 or OpenGL 1.5 with some extensions.
+
+    Animate your visual effects: Natron offers a simple and efficient way to deal with keyframes with a very accurate and intuitive curve editor.
+    Command line tool for execution of project files. The command line version is executable from ssh on a computer without any display. Hence it is possible to use a render farm to render Natron’s projects. 
+    In the near future we will implement python bindings so that Natron can be scriptable and used only from the command line.
+
+    Multi-view workflow: Natron saves time by keeping all the views in the same stream. You can separate the views at any time with the SplitViews node. Note that currently Natron does not allow to split the  nodes settings for each view, this will be implemented in the future.
+
+    Rotoscoping: Edit your masks and animate them to work with complex shots</description>
+    <projectUrl>http://natron.inria.fr</projectUrl>
+    <tags>Natron OPEN-SOURCE CROSSPLATFORM NODAL COMPOSITING TRACKING</tags>
+    <copyright>Opensource Mozilla Public Licence MPL V2.0</copyright>
+    <licenseUrl>http://www.mozilla.org/MPL/2.0/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>BetterPoEditor</id>
+    <title>Better Po Editor</title>
+    <version>1.2.0</version>
+    <authors>Michele Locati</authors>
+    <owners>Waterdrop</owners>
+    <summary>Better PO Editor is an editor for .po files, used to generate compiled gettext .mo files</summary>
+    <description>Better PO Editor is an editor for .po files, used to generate compiled gettext .mo files which are used by many programs and websites to localize the user interface. 
+	
+	It offers great features... It's worth to give it a try!</description>
+    <projectUrl>https://github.com/mlocati/betterpoeditor/releases</projectUrl>
+    <tags>BetterPoEditor PO MO translation Wordpress languages generate editor localize internationalization</tags>
+    <copyright>GNU Library or Lesser General Public License version 3.0 (LGPLv3)</copyright>
+    <licenseUrl>http://sourceforge.net/directory/license:lgplv3/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+	Features
+
+    Google Translate suggestions
+    Verify html code syntax (tidy)
+    Spell check
+    Powerful search engine
+    Manage contexts (msgctx) and removed (obsolete) entries
+</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

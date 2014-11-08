@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Shotcut</id>
+    <title>Shotcut</title>
+    <version>14.03.28</version>
+    <authors>Dan Dennedy</authors>
+    <owners>Waterdrop</owners>
+    <summary>Shotcut is a free, open source, cross-platform video editor. </summary>
+    <description>
+	Shotcut is a free, open source, cross-platform video editor. 
+    Features: http://www.shotcut.org/bin/view/Shotcut/Features
+    Roadmap: http://www.shotcut.org/bin/view/Shotcut/Roadmap
+</description>
+    <projectUrl>http://www.shotcut.org/bin/view/Shotcut/WebHome</projectUrl>
+    <tags>shotcut video editor cutting color correction media</tags>
+    <copyright>GPLv3</copyright>
+    <licenseUrl>https://github.com/mltframework/shotcut/blob/master/COPYING</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>https://raw.github.com/__CHOCO_PKG_OWNER_REPO__/master/shotcut/shotcut.png</iconUrl>-->
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <!--<file src="content\**" target="content" />-->
+  </files>
+</package>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>PangolinQuickshow</id>
+    <title>Pangolin Lasershow Designer QuickShow</title>
+    <version>2.5</version>
+    <authors>Pangolin Laser Systems, Inc.</authors>
+    <owners>Waterdrop</owners>
+    <summary>Pangolin QuickShow is a complete laser show system. It is capable of graphics as well as beam effects. It has everything you need for a modern laser light show.</summary>
+    <description>A complete laser system
+
+QuickShow is a complete laser system. It is capable of graphics as well as beam effects. It has everything you need for a modern laser light show. QuickShow includes the following capabilities:
+
+Graphics
+
++ Still frames (graphics and logos)
++ Animated frames
++ Abstracts
++ Text
++ Automated tracing of bitmaps (BMP, JPG, GIF)
+
+Beams and atmospherics
+
++ Beam targeting
++ Beam shapes (fans, cones, waves, etc.)
+
+Show production methods
+
++ Live shows (laser jockey)
++ Pre-programmed shows
++ Mixed shows with both live and pre-programmed elements
+
+Advanced technology
+
+QuickShow isn’t just about a better user experience. It also has advanced technology such as the all-new Beyond calculation engine. Beyond automatically takes care of scanner optimization and color mixing.</description>
+    <projectUrl>http://www.pangolin.com/QS</projectUrl>
+    <tags>Pangolin Quickshow laser showcontroller live diode show light dmx create images output designer lasershow</tags>
+    <copyright>Pangolin Laser Systems, Inc.</copyright>
+    <licenseUrl>http://www.pangolin.com/UpdateFiles.htm</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>https://raw.github.com/__CHOCO_PKG_OWNER_REPO__/master/PangolinQuickshow/PangolinQuickshow.png</iconUrl>-->
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

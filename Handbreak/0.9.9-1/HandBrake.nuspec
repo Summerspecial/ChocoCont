@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>HandBrake</id>
+    <title>HandBrake</title>
+    <version>0.9.9-1</version>
+    <authors>The HandBrake Team</authors>
+    <owners>Waterdrop</owners>
+    <summary>HandBrake is an open-source, GPL-licensed, multiplatform, multithreaded video transcoder, available for Mac OS X, Linux and Windows.</summary>
+    <description>HandBrake is an open-source, GPL-licensed, multiplatform, multithreaded video transcoder, available for Mac OS X, Linux and Windows. It's video transcoder that takes your videos and transfers them to a format that's useful on your computers, media centers, and portable electronic devices. It converts most any video formats to a handful of modern ones.</description>
+    <projectUrl>http://handbrake.fr/</projectUrl>
+    <tags>HandBrake admin</tags>
+    <copyright>GNU GPLv2</copyright>
+    <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>https://raw.github.com/__CHOCO_PKG_OWNER_REPO__/master/HandBrake/HandBrake.png</iconUrl>-->
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <!--<file src="content\**" target="content" />-->
+  </files>
+</package>
