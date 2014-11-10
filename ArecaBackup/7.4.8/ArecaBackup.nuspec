@@ -20,6 +20,7 @@ It has been designed to ...
     <tags>ArecaBackup admin backup data security </tags>
     <copyright>General Public License (GPL) v2</copyright>
     <licenseUrl>http://www.opensource.org/licenses/gpl-license.php</licenseUrl>
+	<iconUrl>https://cdn.rawgit.com/Summerspecial/ChocoCont/master/ArecaBackup/areca_logo.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes></releaseNotes>
   </metadata>

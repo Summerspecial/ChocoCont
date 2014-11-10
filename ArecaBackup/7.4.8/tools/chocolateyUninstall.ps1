@@ -9,7 +9,7 @@ try {
   Uninstall-ChocolateyPackage 'ArecaBackup' 'EXE' '/S' "$unpath" -validExitCodes @(0)
   
   # the following is all part of error handling
-  Write-ChocolateySuccess ArecaBackup'
+  Write-ChocolateySuccess 'ArecaBackup'
 } catch {
   Write-ChocolateyFailure 'ArecaBackup' "$($_.Exception.Message)"
   throw
