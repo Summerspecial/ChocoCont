@@ -12,8 +12,8 @@ This project is a fork of the great QLC project written by Heikki Junnila that a
 The primary goal is to bring QLC+ at the level of other lighting control commercial softwares</description>
     <projectUrl>http://qlcplus.sourceforge.net/</projectUrl>
     <tags>QLCplus DMX analog lighting moving heads dimmers controller</tags>
-    <copyright>GPLv2</copyright>
-    <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <copyright>Apache License V2.0</copyright>
+    <licenseUrl>http://sourceforge.net/directory/license:apache2/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!--<iconUrl>https://raw.github.com/__CHOCO_PKG_OWNER_REPO__/master/QLCplus/QLCplus.png</iconUrl>-->
     <!--<dependencies>
