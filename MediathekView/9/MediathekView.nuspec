@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>MediathekView</id>
+    <title>MediathekView</title>
+    <version>9.0.0.0</version>
+    <authors>W.Xaver</authors>
+    <owners>Waterdrop</owners>
+    <summary>Das Programm MediathekView durchsucht die Online-Mediatheken verschiedener Sender (ARD, ZDF, Arte, 3Sat, SWR, BR, MDR, NDR, WDR, HR, RBB, ORF, SF) und listet die gefundenen Sendungen auf. Die Liste kann mit verschiedenen Filtern nach Beiträgen durchsucht werden. Mit einem Programm eigener Wahl können die Filme angesehen und aufgezeichnet werden. Es lassen sich Abos anlegen und neue Beiträge automatisch herunterladen.</summary>
+    <description>Das Programm MediathekView (abgekürzt: MV) ist eine Art Suchmaschine für Filme der Mediatheken verschiedener öffentlich-rechtlicher Sender (3sat, ARD, arte.de, arte.fr, BR, hr, KiKA, mdr, NDR, ORF, phönix, rbb, SR, SRF, SWR, WDR, ZDF, ZDFtivi). MediathekView erlaubt es, sowohl Beiträge aus den Mediatheken direkt (mit VLC Media Player oder mit einem Programm eigener Wahl) abzuspielen oder herunterzuladen als auch Sendereihen/Serien zu abonnieren. MediathekView kann nur Sendungen herunterladen, die in den Mediatheken der Sender selbst noch als Videos angeboten werden.</description>
+    <projectUrl>http://zdfmediathk.sourceforge.net/</projectUrl>
+    <tags>MediathekView admin</tags>
+    <copyright>GNU GENERAL PUBLIC LICENSE, GPLv3</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-3.0.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!-- Important note about https://cdn.rawgit.com: Files are cached permanently after the first request. Use commit URLs when updating the icon. -->
+    <!--<iconUrl>http://cdn.rawgit.com/Summerspecial/ChocoCont/master/icons/MediathekView.png</iconUrl>-->
+    <!--<dependencies>
+      <dependency id="javaruntime" version="7.0.75" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
