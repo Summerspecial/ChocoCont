@@ -13,8 +13,7 @@
     <copyright>GNU GENERAL PUBLIC LICENSE, GPLv3</copyright>
     <licenseUrl>https://www.gnu.org/licenses/gpl-3.0.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!-- Important note about https://cdn.rawgit.com: Files are cached permanently after the first request. Use commit URLs when updating the icon. -->
-    <!--<iconUrl>http://cdn.rawgit.com/Summerspecial/ChocoCont/master/icons/MediathekView.png</iconUrl>-->
+    <iconUrl>https://cdn.rawgit.com/Summerspecial/ChocoCont/master/MediathekView/9/MediathekView.png</iconUrl>
     <!--<dependencies>
       <dependency id="javaruntime" version="7.0.75" />
     </dependencies>-->
