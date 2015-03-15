@@ -5,7 +5,8 @@ $validExitCodes = @(0)
 Install-ChocolateyZipPackage "$packageName" "$url" "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 try {
-  $target = Join-Path $MyInvocation.MyCommand.Definition "$($packageName)__Start.exe"
+
+  $target = Join-Path "$(Split-Path -parent $MyInvocation.MyCommand.Definition)" "$($packageName)__Start.exe"
   Install-ChocolateyDesktopLink $target
   Write-ChocolateySuccess "$packageName"
 } catch {
