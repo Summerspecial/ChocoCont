@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if ??? doesn?t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>Antrenamer</id>
+    <title>Antrenamer</title>
+    <version>2.10.0</version>
+    <authors> Antoine Potten</authors>
+    <owners>Waterdrop</owners>
+    <summary>Ant Renamer is a free program that makes easier the renaming of lots of files and folders by using specified settings. It supports Unicode names.</summary>
+    <description>Ant Renamer is a free (really free, i.e. the source code is available) program that makes easier the renaming of lots of files and folders by using specified settings. It supports Unicode names.
+This program can rename large amounts of files and folders in few clicks. It only modifies files/folders names:
+
+- Changing extension
+- Replacing character strings by others
+- Inserting a character string
+- Moving characters
+- Deleting several characters
+- Enumeration
+- Name creation with mp3's Tag (ID v1.1)
+- Name creation with file's last modified date and time
+- Random names creation
+- Case change (uppercase, lowercase, first letter of each word in uppercase, ...)
+- Take names from a list/file
+- Use of EXIF info
+- Regular expressions
+
+Availble in 16 languages : English (default), Belarusian, Chinese (simplified and traditional), Czech, French, German, Greek, Hungarian, Italian, Japanese, Korean, Polish, Portuguese, Russian, Slovak, Spanish.
+
+Unicode file names are supported, so it is possible to rename without problems files that have names containing characters from Japanese, Chinese, Arab, etc.
+
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+
+Tested successfuly under various Windows versions, from 98 (with a few updated system files) and NT4 (SP4 required) up to current ones (Windows Vista, 7 and 8).</description>
+    <projectUrl>http://www.antp.be/software/renamer</projectUrl>
+    <tags>Antrenamer rename changing replacing strings filenames exif regex regular expressions folders files unicode characters uppercase lowercase</tags>
+    <copyright>GNU General Public License</copyright>
+    <licenseUrl>http://www.gnu.org/licenses/gpl.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!-- Important note about https://cdn.rawgit.com: Files are cached permanently after the first request. Use commit URLs when updating the icon. -->
+    <!--<iconUrl>http://cdn.rawgit.com/Summerspecial/ChocoCont/master/icons/Antrenamer.png</iconUrl>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
